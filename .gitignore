@@ -1,6 +1,7 @@
 Files/CSV-01-12/01-12
 Files/CSV-03-11/03-11
 Files/Parquet
+Files/Training
 
 Scripts/venv
 Scripts/.ipynb_checkpoints
