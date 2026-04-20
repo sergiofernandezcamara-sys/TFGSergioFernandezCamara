@@ -61,20 +61,18 @@ print("Validation:",x_val.shape,y_val.shape)
 print("Test:",x_test.shape,y_test.shape)
 
 #########################################
-#Fill Parquet
+#To Parquet
 #########################################
 train_df=x_train.copy()
 train_df["LabelBin"]=y_train.copy()
+
+train_df=train_df.sample(frac=1,random_state=42).reset_index(drop=True)
 
 val_df=x_val.copy()
 val_df["LabelBin"]=y_val.copy()
 
 test_df=x_test.copy()
 test_df["LabelBin"]=y_test.copy()
-
-#train_bal=train_bal.sample(frac=1,random_state=42).reset_index(drop=True)
-
-#x_train_bal=train_bal.drop(columns=[" Label"]).astype("float32").to_numpy()
 
 train_df.to_parquet(f"/home/serg/Documentos/Proyecto/Files/Training/train.parquet")
 val_df.to_parquet(f"/home/serg/Documentos/Proyecto/Files/Training/val.parquet")
