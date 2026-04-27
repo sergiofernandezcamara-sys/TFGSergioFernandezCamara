@@ -77,3 +77,51 @@ test_df["LabelBin"]=y_test.copy()
 train_df.to_parquet(f"/home/serg/Documentos/Proyecto/Files/Training/train.parquet")
 val_df.to_parquet(f"/home/serg/Documentos/Proyecto/Files/Training/val.parquet")
 test_df.to_parquet(f"/home/serg/Documentos/Proyecto/Files/Training/test.parquet")
+
+# 8) Compilar
+model.compile(
+    optimizer="adam",
+    loss="binary_crossentropy",
+    metrics=["accuracy"]
+)
+
+# 9) Guardar el mejor modelo durante entrenamiento
+checkpoint_cb = keras.callbacks.ModelCheckpoint(
+    filepath="mejor_modelo.keras",
+    monitor="val_loss",
+    mode="min",
+    save_best_only=True
+)
+
+callbacks = [
+    keras.callbacks.EarlyStopping(
+        monitor="val_loss",
+        min_delta=1e-2,
+        patience=2,
+        verbose=1,
+    ),
+    keras.callbacks.ModelCheckpoint(
+        filepath="mejor_modelo.keras",
+        monitor="val_loss",
+        mode="min",
+        save_best_only=True
+    )
+]
+
+# 10) Entrenar
+history = model.fit(
+    X_train_bal,
+    y_train_bal,
+    epochs=20,
+    batch_size=256,
+    validation_data=(X_val, y_val),
+    callbacks=[checkpoint_cb]
+)
+
+# 11) Evaluación final
+test_loss, test_acc = model.evaluate(X_test, y_test)
+print("Test loss:", test_loss)
+print("Test acc:", test_acc)
+
+# 12) Guardar también el modelo final
+model.save("modelo_final.keras")

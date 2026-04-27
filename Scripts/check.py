@@ -3,7 +3,6 @@ import numpy as np
 import glob
 import os
 from tqdm import tqdm
-#from fastai.tabular.all import df_shrink
 
 #Variable type
 #Schema={
@@ -22,8 +21,8 @@ from tqdm import tqdm
 #    return df
 
 archivos_input=(
-    glob.glob("/home/serg/Documentos/Proyecto/Files/CSV-01-12/01-12/*.csv") + 
-    glob.glob("/home/serg/Documentos/Proyecto/Files/CSV-03-11/03-11/*.csv")
+    glob.glob("C:/Users/sergi/Desktop/TFGSergioFernandezCamara/Files/CSV-01-12/01-12/*.csv") + 
+    glob.glob("C:/Users/sergi/Desktop/TFGSergioFernandezCamara/Files/CSV-03-11/03-11/*.csv")
 )
 
 def shrink_df(df: pd.DataFrame,skip=None)->pd.DataFrame:
@@ -42,7 +41,7 @@ def shrink_df(df: pd.DataFrame,skip=None)->pd.DataFrame:
         s=df[col]
         col_type=s.dtype
 
-        if pd.api.types.is_datetime64_any_dtype(col_type) or pd.api.types.is_timedelta64_dtype(col_type) or pd.api.types.is_categorical_dtype(col_type):
+        if pd.api.types.is_datetime64_any_dtype(col_type) or pd.api.types.is_timedelta64_dtype(col_type) or isinstance(col_type, pd.CategoricalDtype):
             continue
 
         if pd.api.types.is_bool_dtype(col_type):
@@ -105,6 +104,7 @@ for file in tqdm(archivos_input):
     print('\n',"---------------------------------------------------------",'\n')
 #    #inicial_mem=df.memory_usage().sum()
 #    #print("Uso inicial de memoria: ",inicial_mem,"MB")
+    df=df.replace([np.inf,-np.inf],np.nan)
     df.dropna(inplace=True)
     df=shrink_df(df,skip=[' Label'])
 #    df=apply_schema(df,Schema)
