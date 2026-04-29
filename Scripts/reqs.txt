@@ -1,4 +1,1 @@
-pandas
-scikit-learn
-fastai
-tqdm
+jupyter lab
