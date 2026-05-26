@@ -1,0 +1,247 @@
+2026-05-19 17:09:37 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-08-34.pcap
+2026-05-19 17:09:37 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv
+2026-05-19 17:09:38 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 98 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 97 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 96 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 98 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 98 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 99 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 98 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 100 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 99 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 98 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 97 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 96 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 96 2f  6a 63 14 2a* 86 dd 60 02    33...../jc.*..`.
+0010: d9 7f 00 35  11 ff fe 80  00 00 00 00  00 00 94 2f    ...5.........../
+0020: 6a ff fe 63  14 2a ff 02  00 00 00 00  00 00 00 00    j..c.*..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 35  9e 37 00 00    ...........5.7..
+0040: 00 00 00 01  00 00 00 00  00 00 10 5f  73 70 6f 74    ..........._spot
+0050: 69 66 79 2d  63 6f 6e 6e  65 63 74 04  5f 74 63 70    ify-connect._tcp
+0060: 05 6c 6f 63  61 6c 00 00  0c 00 01*                   .local.....     
+
+
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 262 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 263 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 278 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 281 flow
+2026-05-19 17:09:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-08-34.pcap
+2026-05-19 17:10:37 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-09-34.pcap
+2026-05-19 17:10:37 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv
+2026-05-19 17:10:37 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb d0 39  57 05 3c a3* 86 dd 60 0f    33.....9W.<...`.
+0010: b5 49 00 30  11 01 fe 80  00 00 00 00  00 00 fe af    .I.0............
+0020: da 4d c2 27  b1 52 ff 02  00 00 00 00  00 00 00 00    .M.'.R..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  40 ad 00 00    ...........0@...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb d0 39  57 05 3c a3* 86 dd 60 0f    33.....9W.<...`.
+0010: b5 49 00 30  11 01 fe 80  00 00 00 00  00 00 fe af    .I.0............
+0020: da 4d c2 27  b1 52 ff 02  00 00 00 00  00 00 00 00    .M.'.R..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  40 ad 00 00    ...........0@...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb d0 39  57 05 3c a3* 86 dd 60 0f    33.....9W.<...`.
+0010: b5 49 00 30  11 01 fe 80  00 00 00 00  00 00 fe af    .I.0............
+0020: da 4d c2 27  b1 52 ff 02  00 00 00 00  00 00 00 00    .M.'.R..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 30  40 ad 00 00    ...........0@...
+0040: 00 00 00 01  00 00 00 00  00 00 0b 5f  67 6f 6f 67    ..........._goog
+0050: 6c 65 63 61  73 74 04 5f  74 63 70 05  6c 6f 63 61    lecast._tcp.loca
+0060: 6c 00 00 0c  00 01*                                   l.....          
+
+
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 226 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 231 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 231 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 233 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 242 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 242 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 290 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 291 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 470 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 470 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 471 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 472 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 475 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 474 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 473 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 486 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 488 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 608 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 612 flow
+2026-05-19 17:10:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-09-34.pcap
+2026-05-19 17:11:36 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-10-35.pcap
+2026-05-19 17:11:36 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv
+2026-05-19 17:11:37 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 32 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 30 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 34 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 36 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 36 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 38 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 96 2f  6a 63 14 2a* 86 dd 60 02    33...../jc.*..`.
+0010: d9 7f 00 35  11 ff fe 80  00 00 00 00  00 00 94 2f    ...5.........../
+0020: 6a ff fe 63  14 2a ff 02  00 00 00 00  00 00 00 00    j..c.*..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 35  9e 37 00 00    ...........5.7..
+0040: 00 00 00 01  00 00 00 00  00 00 10 5f  73 70 6f 74    ..........._spot
+0050: 69 66 79 2d  63 6f 6e 6e  65 63 74 04  5f 74 63 70    ify-connect._tcp
+0060: 05 6c 6f 63  61 6c 00 00  0c 00 01*                   .local.....     
+
+
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 114 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 113 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 119 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 118 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 121 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 120 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 119 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 118 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 117 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 116 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 116 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 116 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 114 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 113 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 114 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 135 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 136 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 136 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 200 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 201 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 219 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 226 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 226 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 228 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 228 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 228 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 227 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 228 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 227 flow
+2026-05-19 17:11:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-10-35.pcap
+2026-05-19 17:12:28 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-11-35.pcap
+2026-05-19 17:12:28 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv
+2026-05-19 17:12:29 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 84 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 89 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 140 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 153 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 191 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 203 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 910 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 909 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 928 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 927 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 933 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 932 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 933 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 932 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 962 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 975 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 984 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 983 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 995 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 999 flow
+2026-05-19 17:12:30 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-11-35.pcap
+2026-05-19 17:13:28 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-12-27.pcap
+2026-05-19 17:13:28 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv
+2026-05-19 17:13:29 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 110 flow
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 237 flow
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 264 flow
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 270 flow
+2026-05-19 17:13:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 416 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 517 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 641 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 646 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 719 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 96 2f  6a 63 14 2a* 86 dd 60 02    33...../jc.*..`.
+0010: d9 7f 00 35  11 ff fe 80  00 00 00 00  00 00 94 2f    ...5.........../
+0020: 6a ff fe 63  14 2a ff 02  00 00 00 00  00 00 00 00    j..c.*..........
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 35  9e 37 00 00    ...........5.7..
+0040: 00 00 00 01  00 00 00 00  00 00 10 5f  73 70 6f 74    ..........._spot
+0050: 69 66 79 2d  63 6f 6e 6e  65 63 74 04  5f 74 63 70    ify-connect._tcp
+0060: 05 6c 6f 63  61 6c 00 00  0c 00 01*                   .local.....     
+
+
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 763 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 793 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 803 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 803 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 818 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 818 flow
+2026-05-19 17:13:30 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-12-27.pcap
+2026-05-19 17:14:28 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-13-27.pcap
+2026-05-19 17:14:28 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv
+2026-05-19 17:14:29 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 196 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 213 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 236 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 318 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 342 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 345 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 345 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 345 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 344 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 348 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 355 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 368 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 368 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 385 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 386 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 388 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 388 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 388 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 418 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 470 flow
+2026-05-19 17:14:29 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\processing\captura_2026-05-19_17-13-27.pcap

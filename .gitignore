@@ -6,5 +6,7 @@ Files/Training
 Scripts/venv
 Scripts/.ipynb_checkpoints
 
+capturas
+
 .csv
 .parquet
