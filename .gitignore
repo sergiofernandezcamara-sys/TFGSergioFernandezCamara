@@ -2,9 +2,11 @@ Files/CSV-01-12/01-12
 Files/CSV-03-11/03-11
 Files/Parquet
 Files/Training
+Files/PCAP
 
 Scripts/venv
 Scripts/.ipynb_checkpoints
+Scripts/logs
 
 capturas
 

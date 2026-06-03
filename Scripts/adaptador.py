@@ -8,10 +8,22 @@ from sklearn.preprocessing import StandardScaler
 import tensorflow as tf
 import keras
 
+#Ruta para pruebas de ataque
+#CSVDATA_DIR = Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\Files\PCAP\DATAcsv")
+
 CSV_DIR=Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv")
 CSV_PROC_DIR=Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv_proc")
 CSV_DONE_DIR=Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv_done")
+CSV_WRITE=Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csvWrite")
 ADAPT_FILE=Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\csv_adapt")
+
+for folder in [CSV_DIR, CSV_PROC_DIR, CSV_DONE_DIR, ADAPT_FILE, CSV_WRITE]:
+    folder.mkdir(parents=True, exist_ok=True)
+
+#Mover archivos de pruebas de ataque
+#files=sorted(CSVDATA_DIR.glob("*.csv"))
+#for file in files:
+#    shutil.copy(str(file),str(CSV_DIR / file.name))
 
 columns_drop=[
     "Unnamed: 0",
@@ -104,28 +116,6 @@ Schema={
     "Idle Min": " Idle Min"
 }
 
-def prediction_to_if():
-    pass
-
-    #time_cols = [
-    #    "Flow Duration",
-    #    "Flow IAT Mean", "Flow IAT Std", "Flow IAT Max", "Flow IAT Min",
-    #    "Fwd IAT Total", "Fwd IAT Mean", "Fwd IAT Std", "Fwd IAT Max", "Fwd IAT Min",
-    #    "Bwd IAT Total", "Bwd IAT Mean", "Bwd IAT Std", "Bwd IAT Max", "Bwd IAT Min",
-    #    "Active Mean", "Active Std", "Active Max", "Active Min",
-    #    "Idle Mean", "Idle Std", "Idle Max", "Idle Min",
-    #]
-
-    #summary = df[time_cols].describe().T[["min", "max", "mean", "std"]]
-    #print(summary)
-
-    #suspicious_idle = df[
-    #    (df["Idle Mean"] > df["Flow Duration"]) |
-    #    (df["Idle Max"] > df["Flow Duration"]) |
-    #    (df["Idle Min"] > df["Flow Duration"])
-    #]
-    #df.drop(suspicious_idle,inplace=True)
-
 def adapt_and_predict(file: Path):
     df=pd.read_csv(file,usecols=lambda column: column not in columns_drop)
 
@@ -134,19 +124,9 @@ def adapt_and_predict(file: Path):
     df=df.replace([np.inf,-np.inf],np.nan)
     df = df.dropna().reset_index(drop=True)
 
-    ##############################
-    df.to_csv(ADAPT_FILE / file.name,index=False)
-    ##############################
-
     df_float = df.astype("float32").to_numpy()
 
     model=keras.models.load_model("mejor_modelo.keras")
-    ##############################
-    print("Comprobación shape: ")
-    print(df.columns.tolist())
-    print(df.shape)
-    print(model.input_shape)
-    ##############################
 
     scaler=load('scaler.bin')
     df_scaled = scaler.transform(df_float)
@@ -154,76 +134,16 @@ def adapt_and_predict(file: Path):
     proba=model.predict(df_scaled)
     pred = (proba >= 0.5).astype(int)
 
-    ##############################
-    print("Columnas raras: ")
-    df_scaled_debug = pd.DataFrame(df_scaled, columns=df.columns)
-
-    attack_indices = np.where(pred.flatten() == 1)[0]
-
-    print("Flujos clasificados como ataque:")
-    print(attack_indices)
-
-    for i in attack_indices:
-        print(f"\n--- Flujo {i} ---")
-        print(f"Probabilidad: {proba[i][0]:.6f}")
-        print("Valores originales:")
-        print(df.iloc[i])
-
-        print("\nColumnas más raras tras escalar:")
-        print(
-            df_scaled_debug.iloc[i]
-            .sort_values(key=abs, ascending=False)
-            .head(15)
-        )
-    ##############################
-
-    ##############################
-    cols_debug = [
-        " ACK Flag Count",
-        " RST Flag Count",
-        " SYN Flag Count",
-        "Fwd PSH Flags",
-        " Init_Win_bytes_backward",
-        " Down/Up Ratio"
-    ]
-
-    for col in cols_debug:
-        idx = df.columns.get_loc(col)
-        print("\n", col)
-        print("media scaler:", scaler.mean_[idx])
-        print("escala scaler:", scaler.scale_[idx])
-        print("valores originales en ataques:")
-        print(df.loc[attack_indices, col].values)
-        print("valores escalados en ataques:")
-        print(df_scaled_debug.loc[attack_indices, col].values)
-    ##############################
-
-    ##############################
-    packets_total = (
-        df[" Total Fwd Packets"] +
-        df[" Total Backward Packets"]
-    )
-
-    payload_total = (
-        df["Total Length of Fwd Packets"] +
-        df[" Total Length of Bwd Packets"]
-    )
-    ##############################
-
-    salida_predict = open("myfile.txt", "w")
-    salida_predict.write(f"Predicción de {file.name}\n")
-    for i, (p, c) in enumerate(zip(proba.flatten(), pred.flatten())):
-        salida_predict.write(
-            f"Flujo {i}: "
-            f"prob={p:.12f}, "
-            f"clase={c}, "
-            f"paquetes={packets_total.iloc[i]}, "
-            f"payload={payload_total.iloc[i]}, "
-            f"ACK={df[' ACK Flag Count'].iloc[i]}, "
-            f"RST={df[' RST Flag Count'].iloc[i]}, "
-            f"SYN={df[' SYN Flag Count'].iloc[i]}, "
-            f"duracion={df[' Flow Duration'].iloc[i]}\n"
-        )
+    df=pd.read_csv(file)
+    df=df.drop(columns='Label')
+    df=df.replace([np.inf,-np.inf],np.nan)
+    df = df.dropna().reset_index(drop=True)
+    df["Probability"]=proba[:,0]
+    df["Prediction"]=pred[:,0]
+    df["Prediction"] = df["Prediction"].replace({1: "ATTACK", 0: "BENIGN"})
+    write_file=CSV_WRITE / file.name
+    df.to_csv(write_file,index=False)
+    shutil.move(str(write_file),str(ADAPT_FILE / file.name))
 
 def control_function():
     pending_files=sorted(CSV_DIR.glob("*.csv"))

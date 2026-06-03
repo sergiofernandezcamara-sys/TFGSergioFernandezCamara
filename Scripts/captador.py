@@ -7,6 +7,10 @@ DUMPCAP_PATH = r"C:\Program Files\Wireshark\dumpcap.exe"
 INCOMING_DIR = Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\incoming")
 READY_DIR = Path(r"C:\Users\sergi\Desktop\TFGSergioFernandezCamara\capturas\ready")
 
+for folder in [INCOMING_DIR, READY_DIR]:
+    folder.mkdir(parents=True, exist_ok=True)
+
+#dumpcap.exe -D
 interface = "5"
 
 def capture_one_pcap():
@@ -33,7 +37,6 @@ def capture_one_pcap():
     shutil.move(str(incoming_file), str(ready_file))
 
     print(f"PCAP listo: {ready_file}")
-
 
 while True:
     capture_one_pcap()
