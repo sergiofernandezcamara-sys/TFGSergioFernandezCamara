@@ -1,4 +1,4 @@
-Configurar entorno.
+	-Configurar entorno.
 
 Abrir PowerShell y situarse dentro de la carpeta Scripts del proyecto:
 
@@ -20,7 +20,7 @@ Instalar las dependencias del proyecto:
 
 pip install -r reqs.txt
 
-Dataset.
+	-Instalar el Dataset.
 
 Instalar el dataset CICDDoS2019 desde el enlace.
 
@@ -52,7 +52,7 @@ DrDoS_UDP.csv
 
 Este cambio es necesario para que el código encuentre correctamente el archivo UDP con el nombre esperado.
 
-Instalar Wireshark en Windows.
+	-Instalar Wireshark en Windows.
 
 Durante la instalación, asegurarse de instalar también Npcap.
 
@@ -89,7 +89,7 @@ También se debe configurar la ruta de Dumpcap:
 
 DUMPCAP_PATH = r"C:\Program Files\Wireshark\dumpcap.exe"
 
-Instalar Java JDK 8.
+	-Instalar Java JDK 8.
 
 Comprobar desde CMD o PowerShell:
 
@@ -108,7 +108,7 @@ Comprobar de nuevo:
 
 java -version
 
-Descargar CICFlowMeter oficial.
+	-Descargar CICFlowMeter oficial.
 
 La carpeta inicial tendrá una estructura similar a:
 
@@ -161,7 +161,7 @@ Por tanto, la ruta final del ejecutable de CICFlowMeter será:
 
 ...\CICFlowMeter\build\distributions\CICFlowMeter-4.0\CICFlowMeter-4.0\bin\cfm.bat
 
-Localizar jnetpcap.
+	-Localizar jnetpcap.
 
 Dentro de la carpeta principal de CICFlowMeter hay una carpeta llamada:
 
@@ -181,7 +181,7 @@ También debe existir el archivo:
 
 jnetpcap.jar
 
-Configurar JNETPCAP con JAVA_OPTS
+	-Configurar JNETPCAP con JAVA_OPTS
 
 Para que CICFlowMeter pueda encontrar la librería nativa de jNetPcap, hay que indicar a Java la ruta donde se encuentra jnetpcap.dll.
 
@@ -196,6 +196,8 @@ CFM_PATH=Path(r"...\CICFlowMeter\build\distributions\CICFlowMeter-4.0\CICFlowMet
 También se debe configurar la ruta de JNETPCAP:
 
 JNETPCAP_DIR = Path(r"...\CICFlowMeter\jnetpcap\win\jnetpcap-1.4.r1425")
+
+	-Ejecución
 
 Una vez realizadas estas configuraciones será necesario iniciar jupyter lab para ejecutar Data_train.ipynb:
 
