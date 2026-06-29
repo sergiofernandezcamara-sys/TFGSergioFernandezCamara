@@ -1,4 +1,4 @@
-##Configurar entorno.
+## Configurar entorno.
 
 Abrir cmd y situarse dentro de la carpeta Scripts del proyecto:
 
@@ -30,7 +30,7 @@ Instalar las dependencias del proyecto:
 pip install -r reqs.txt
 ```
 
-##Instalar el Dataset.
+## Instalar el Dataset.
 
 Instalar el dataset CICDDoS2019 desde el enlace.
 
@@ -68,7 +68,7 @@ DrDoS_UDP.csv
 
 Este cambio es necesario para que el código encuentre correctamente el archivo UDP con el nombre esperado.
 
-##Instalar Wireshark en Windows.
+## Instalar Wireshark en Windows.
 
 Durante la instalación, asegurarse de instalar también Npcap.
 
@@ -119,7 +119,7 @@ También se debe configurar la ruta de Dumpcap:
 DUMPCAP_PATH = r"C:\Program Files\Wireshark\dumpcap.exe"
 ```
 
-##Instalar Java JDK 8.
+## Instalar Java JDK 8.
 	
 Instalar Java 1.8.
 
@@ -148,7 +148,7 @@ Comprobar de nuevo:
 java -version
 ```
 
-##Descargar CICFlowMeter oficial.
+## Descargar CICFlowMeter oficial.
 
 La carpeta inicial tendrá una estructura similar a:
 
@@ -215,7 +215,7 @@ Por tanto, la ruta final del ejecutable de CICFlowMeter será:
 ...\CICFlowMeter\build\distributions\CICFlowMeter-4.0\CICFlowMeter-4.0\bin\cfm.bat
 ```
 
-##Localizar jnetpcap.
+## Localizar jnetpcap.
 
 Dentro de la carpeta principal de CICFlowMeter hay una carpeta llamada:
 
@@ -243,7 +243,7 @@ También debe existir el archivo:
 jnetpcap.jar
 ```
 
-##Configurar JNETPCAP con JAVA_OPTS
+## Configurar JNETPCAP con JAVA_OPTS.
 
 Para que CICFlowMeter pueda encontrar la librería nativa de jNetPcap, hay que indicar a Java la ruta donde se encuentra jnetpcap.dll.
 
@@ -265,7 +265,7 @@ También se debe configurar la ruta de JNETPCAP:
 JNETPCAP_DIR = Path(r"...\CICFlowMeter\jnetpcap\win\jnetpcap-1.4.r1425")
 ```
 
-##Ejecución
+## Modificación de direcciones y ejecución.
 
 Una vez realizadas estas configuraciones será necesario iniciar jupyter lab para ejecutar Data_train.ipynb:
 
@@ -278,3 +278,5 @@ Dentro del notebook habrá que modificar las direcciones de los archivos para qu
 
 Cuando se haya terminado de ejecutar todo el notebook, se modificarán las direcciones de todos los scripts de Python.
 Todas las direcciones se encuentran en la parte superior de los archivos, se deberán modificar con la dirección correcta de TFGSergioFernandezCamara.
+
+Una vez terminado, se podrá ejecutar todo el sistema ejecutando el archivo script.py.
