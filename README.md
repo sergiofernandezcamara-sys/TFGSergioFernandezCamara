@@ -44,7 +44,6 @@ La estructura general esperada es similar a:
 TFGSergioFernandezCamara
 │
 ├── Files
-│ ├── CICDDoS2019
 │ ├── CSV-01-12
 │ ├── CSV-03-11
 │ └── Parquet
@@ -136,6 +135,7 @@ javac -version
 Si el equipo tiene otra versión de Java instalada, por ejemplo Java 24, se puede forzar el uso de JDK 8 solo en la terminal donde se va a configurar CICFlowMeter.
 
 Ejemplo:
+(Modifica con las direcciones correctas)
 
 ```cmd
 set JAVA_HOME=C:\Program Files\Java\jdk8
