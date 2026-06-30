@@ -66,7 +66,7 @@ por:
 DrDoS_UDP.csv
 ```
 
-Este cambio es necesario para que el código encuentre correctamente el archivo UDP con el nombre esperado.
+Este cambio es necesario para que los archivos UDP de las dos carpetas no se sobrescriban.
 
 ## Instalar Wireshark en Windows.
 
